@@ -11,6 +11,7 @@ app.use(cors());
 
 app.use(bodyParser.json());
 app.use("/api", route);
+
 //app.use('/api', (req, res)=> res.json({username:'bryan'}));
 
 app.listen(port, () => {
